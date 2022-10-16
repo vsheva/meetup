@@ -1,12 +1,15 @@
-//localhost:3000/news
+//localhost:3000/new-meetup
 
+
+
+/**
 import Link from 'next/link'
 
 const NewsPage = () => {
     return <>
         <h1>The News Page</h1>
         <ul>
-            <Link href="news/valerii-loves-his-family">
+            <Link href="new-meetup/valerii-loves-his-family">
                 Valerii loves his family</Link>
             <li>Something else</li>
         </ul>
@@ -14,4 +17,4 @@ const NewsPage = () => {
     </>
 }
 
-export default NewsPage;
+export default NewsPage;*/

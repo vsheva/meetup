@@ -11,13 +11,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2be66a2d-5028-489d-b9de-6a505c2160cc" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/pages/news/[newsName].js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pages/news/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/api/hello.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pages/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/pages/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/favicon.ico" beforeDir="false" afterPath="$PROJECT_DIR$/public/favicon.ico" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/styles/Home.module.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/styles/globals.css" beforeDir="false" afterPath="$PROJECT_DIR$/styles/globals.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/news/[newsName].js" beforeDir="false" afterPath="$PROJECT_DIR$/pages/[meetupName]/[meetupTitle].js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/news/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/pages/new-meetup/index.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -35,12 +32,16 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="2GD72YeEBj2jGylYleBlTjezJXo" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
     <option name="showMembers" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
@@ -48,6 +49,7 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Viki\Documents\meetup\pages\[meetupName]" />
       <recent name="C:\Users\Viki\Documents\meetup\pages\news" />
     </key>
   </component>
@@ -62,7 +64,7 @@
       <option name="presentableId" value="Default" />
       <updated>1665911094284</updated>
       <workItem from="1665911096353" duration="12000" />
-      <workItem from="1665911135031" duration="5396000" />
+      <workItem from="1665911135031" duration="9107000" />
     </task>
     <servers />
   </component>
@@ -79,6 +81,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
   </component>
   <component name="WindowStateProjectService">
     <state x="883" y="160" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1665912806829">
