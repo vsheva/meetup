@@ -1,20 +1,13 @@
 //localhost:3000/new-meetup
 
+import NewMeetupForm from '../../components/meetups/NewMeetupForm';
+import React from "react";
 
 
-/**
-import Link from 'next/link'
+const NewMeetupPage = () => {
+    const addMeetupHandler=(enteredMeetupData)=>console.log(enteredMeetupData);
 
-const NewsPage = () => {
-    return <>
-        <h1>The News Page</h1>
-        <ul>
-            <Link href="new-meetup/valerii-loves-his-family">
-                Valerii loves his family</Link>
-            <li>Something else</li>
-        </ul>
-
-    </>
+    return  <NewMeetupForm  onAddMeetup={addMeetupHandler}/>
 }
 
-export default NewsPage;*/
+export default NewMeetupPage;

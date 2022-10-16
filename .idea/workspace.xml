@@ -12,9 +12,12 @@
   <component name="ChangeListManager">
     <list default="true" id="2be66a2d-5028-489d-b9de-6a505c2160cc" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/layout/MainNavigation.js" beforeDir="false" afterPath="$PROJECT_DIR$/components/layout/MainNavigation.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/meetups/NewMeetupForm.js" beforeDir="false" afterPath="$PROJECT_DIR$/components/meetups/NewMeetupForm.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/_app.js" beforeDir="false" afterPath="$PROJECT_DIR$/pages/_app.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pages/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/pages/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/news/[newsName].js" beforeDir="false" afterPath="$PROJECT_DIR$/pages/[meetupName]/[meetupTitle].js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/news/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/pages/new-meetup/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/new-meetup/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/pages/new-meetup/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/styles/globals.css" beforeDir="false" afterPath="$PROJECT_DIR$/styles/globals.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -65,6 +68,7 @@
       <updated>1665911094284</updated>
       <workItem from="1665911096353" duration="12000" />
       <workItem from="1665911135031" duration="9107000" />
+      <workItem from="1665927936801" duration="3046000" />
     </task>
     <servers />
   </component>
@@ -81,6 +85,7 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
@@ -90,5 +95,16 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="883" y="160" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1536.824@0.0.1536.824" timestamp="1665912806829" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/pages/index.js</url>
+          <properties lambdaOrdinal="-1" />
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

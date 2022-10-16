@@ -1,5 +1,6 @@
 import MeetupList from '../components/meetups/MeetupList';
 import React from "react";
+import Layout from "../components/layout/Layout";
 
 const meetups= [
     {
