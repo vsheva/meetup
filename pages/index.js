@@ -23,7 +23,7 @@ const meetups = [
         image: "https://upload.wikimedia.org/wikipedia/commons/thumb/5/53/Ishtar_gate_in_Pergamon_museum_in_Berlin..jpg/1024px-Ishtar_gate_in_Pergamon_museum_in_Berlin.jpg",
         title: "3rd - Pergamonmuseum",
         address: "Bodestrasse 1-3, 10178 Berlin, Germany",
-        description: "This is a lovely meeting"
+        description: "This is a beautiful meeting"
 
     }
 ]
