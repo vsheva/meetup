@@ -12,4 +12,5 @@ const MeetupDetail = (props) => {
     )
 }
 
+
 export default MeetupDetail;
