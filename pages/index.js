@@ -3,6 +3,7 @@ import {MongoClient} from "mongodb";
 import MeetupList from '../components/meetups/MeetupList';
 import React from "react";
 
+/*
 const meetups = [
     {
         id: "m1",
@@ -26,9 +27,9 @@ const meetups = [
         title: "3rd - Pergamonmuseum",
         address: "Bodestrasse 1-3, 10178 Berlin, Germany",
         description: "This is a beautiful meeting"
-
     }
 ]
+*/
 
 
 const HomePage = (props) => {

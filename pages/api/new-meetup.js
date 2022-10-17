@@ -3,13 +3,11 @@ import {MongoClient} from "mongodb";
 // POST api/new-meetup
 //in -> req, res object
 
-//1. Getting Request
-
 async function handler(req, res) {
+
+     //1. Getting Request
     if(req.method ==="POST") {
         const data= req.body;
-
-        const {image, title, address, description}= data;
 
         //2. storing data in the db
 
