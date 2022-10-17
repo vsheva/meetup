@@ -3,11 +3,11 @@ import classes from './MeetupItem.module.css';
 import { useRouter } from 'next/router';
 
 function MeetupItem(props) {
- const router=useRouter();
+  const router = useRouter();
 
-    const showDetailsHandler=()=>{
-        router.push('/' + props.id);
-    }
+  const showDetailsHandler = () => {
+    router.push('/' + props.id);
+  };
 
   return (
     <li className={classes.item}>
@@ -26,8 +26,5 @@ function MeetupItem(props) {
     </li>
   );
 }
-
-
-
 
 export default MeetupItem;
