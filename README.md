@@ -5,7 +5,7 @@
 - [HTML5](https://en.wikipedia.org/wiki/HTML5)
 - [CSS Modules](https://github.com/css-modules/css-modules)
 - [Flexbox](https://en.wikipedia.org/wiki/CSS_Flexible_Box_Layout)
-- [React JavaScript library](https://reactjs.org/)
+- [React JS](https://reactjs.org/)
 - [React Hooks](https://reactjs.org/docs/hooks-faq.html#gatsby-focus-wrapper)
 - [Next JS](https://nextjs.org/)
 - [MongoDB](https://en.wikipedia.org/wiki/MongoDB)
