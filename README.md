@@ -1,4 +1,4 @@
-This is a [Next.js](https://nextjs.org/) project [`here`](https://meetup-nextjs-topaz.vercel.app/).
+Project [`link`](https://meetup-nextjs-topaz.vercel.app/).
 
 ## Getting Started
 
