@@ -1,15 +1,23 @@
 import React from 'react'
 import {MongoClient, ObjectId} from 'mongodb';
+import {Fragment} from "react"
 import MeetupDetail from "../../components/meetups/MeetupDetail";
+import Head from "next/head";
 
 const Detail = (props) => {
     return (
+        <Fragment>
+            <Head>
+                <title>{props.meetupData.title}</title>
+                <meta name="description" content={props.meetupData.description} />
+            </Head>
         <MeetupDetail
             image={props.meetupData.image}
             title={props.meetupData.title}
             address={props.meetupData.address}
             description={props.meetupData.description}
         />
+        </Fragment>
     )
 }
 
@@ -28,7 +36,6 @@ export const getStaticPaths = async () => {
         paths: meetups.map((meetup) => ({params: {meetupId: meetup._id.toString()}}))
     }
 }
-
 
 export const getStaticProps = async (context) => {
     //fetch data from API

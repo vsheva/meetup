@@ -1,18 +1,19 @@
 //localhost:3000/new-meetup
-
+import {Fragment} from "react"
 import {useRouter} from "next/router"
 
 import NewMeetupForm from '../../components/meetups/NewMeetupForm';
 import React from "react";
+import Head from "next/head";
 
 
 const NewMeetupPage = () => {
     const router = useRouter()
 
-    const addMeetupHandler= async(enteredMeetupData)=>{
+    const addMeetupHandler = async (enteredMeetupData) => {
         const response = await fetch("/api/new-meetup", {
             method: 'POST',
-            body:JSON.stringify(enteredMeetupData),
+            body: JSON.stringify(enteredMeetupData),
             headers: {'Content-Type': 'application/json'}
         })
         const data = await response.json()
@@ -22,20 +23,27 @@ const NewMeetupPage = () => {
         router.push('/');
     }
 
-    return  <NewMeetupForm  onAddMeetup={addMeetupHandler}/>
+    return (<Fragment>
+            <Head>
+                <title>Add a New Meetup</title>
+                <meta name="description" content="Add your own meetups and create amazing networking opportunities."/>
+            </Head>
+            <NewMeetupForm onAddMeetup={addMeetupHandler}/>
+        </Fragment>
+    )
 }
 
 export default NewMeetupPage;
 
 /**
-import {useRouter} from "next/router"
+ import {useRouter} from "next/router"
 
-import NewMeetupForm from '../../components/meetups/NewMeetupForm';
-import React from "react";
-import {CollectionInfo as log} from "mongodb/src/operations/list_collections";
+ import NewMeetupForm from '../../components/meetups/NewMeetupForm';
+ import React from "react";
+ import {CollectionInfo as log} from "mongodb/src/operations/list_collections";
 
 
-const NewMeetupPage = () => {
+ const NewMeetupPage = () => {
     const router = useRouter()
 
     const addMeetupHandler = (enteredMeetupData) => {
@@ -52,4 +60,4 @@ const NewMeetupPage = () => {
     return <NewMeetupForm onAddMeetup={addMeetupHandler}/>
 }
 
-export default NewMeetupPage;*/
+ export default NewMeetupPage;*/
