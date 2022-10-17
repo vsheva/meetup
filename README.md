@@ -1,4 +1,4 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`here`](https://meetup-nextjs-topaz.vercel.app/).
+This is a [Next.js](https://nextjs.org/) project [`here`](https://meetup-nextjs-topaz.vercel.app/).
 
 ## Getting Started
 
