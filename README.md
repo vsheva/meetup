@@ -1,3 +1,23 @@
+# [Meetups project](https://meetup-nextjs-topaz.vercel.app/)
+
+#### The tech stack is:
+
+- [HTML5](https://en.wikipedia.org/wiki/HTML5)
+- [CSS Modules](https://github.com/css-modules/css-modules)
+- [Flexbox](https://en.wikipedia.org/wiki/CSS_Flexible_Box_Layout)
+- [React JavaScript library](https://reactjs.org/)
+- [React Hooks](https://reactjs.org/docs/hooks-faq.html#gatsby-focus-wrapper)
+- [Next JS](https://nextjs.org/)
+- [MongoDB](https://en.wikipedia.org/wiki/MongoDB)
+- [Routing](https://nextjs.org/docs/routing/introduction)
+- [API Routes](https://nextjs.org/docs/api-routes/introduction)
+- [Database](https://en.wikipedia.org/wiki/Database)
+- [JavaScript](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
+- [Fetch API](https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API)
+
+
+
+
 Project [`link`](https://meetup-nextjs-topaz.vercel.app/).
 
 ## Getting Started
