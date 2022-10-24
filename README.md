@@ -8,6 +8,7 @@
 - [React JS](https://reactjs.org/)
 - [React Hooks](https://reactjs.org/docs/hooks-faq.html#gatsby-focus-wrapper)
 - [Next JS](https://nextjs.org/)
+- [SSR](https://nextjs.org/)
 - [MongoDB](https://en.wikipedia.org/wiki/MongoDB)
 - [Router](https://nextjs.org/docs/api-reference/next/router)
 - [API Routes](https://nextjs.org/docs/api-routes/introduction)
