@@ -1,4 +1,4 @@
-# [Meetups project](https://meetup-nextjs-topaz.vercel.app/)
+# [Meetups project](https://meetup-nextjs-jh247ujo1-vsheva.vercel.app/)
 
 #### The tech stack is:
 
